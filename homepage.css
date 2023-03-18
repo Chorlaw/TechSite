@@ -72,3 +72,9 @@ a {
     font-size: 70px;
 }
 
+.svg-space{
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
