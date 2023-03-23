@@ -22,6 +22,10 @@ header {
     color: #FFFFFF;
 }
 
+header main {
+    font-family: "poppiins";
+}
+
 .material-icons {
     font-family: 'Material Icons';
     font-weight: normal;
@@ -49,7 +53,7 @@ header {
     font-feature-settings: 'liga';
 }
 
-.round{
+.round {
     border-radius: 100px;
     background-color: white;
     display: flex;
@@ -57,7 +61,7 @@ header {
     color: black;
 }
 
-.row-Container{
+.row-Container {
     gap: 20px;
     align-items: start;
     display: flex;
@@ -65,53 +69,54 @@ header {
     text-decoration: none;
 }
 
-.chu{
+.chu {
     font-size: 40px;
     font-weight: bold;
     letter-spacing: 5px;
 }
 
-.chu2{
+.chu2 {
     font-size: 20px;
 }
 
-.align-center{
+.align-center {
     align-items: center;
 }
 
-.image-container{
+.image-container {
     border-radius: 20px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
-    background-color:yellow ;
-    color: rgb(20, 52, 53);
+    color: black;
     font-size: medium;
     align-self: stretch;
-    border-color: black;
-    height: 150px;
+    height: 50%;
+    align-items: baseline;
 }
 
-.image-container img{
+.image-container img {
     border-radius: 20px;
     height: 100px;
     width: 100px;
 }
 
-.image-container object{
-    border-radius: 100px;
-    height: 100px;
-    width: 100%;
-    padding: 5px 10px 0px 20px;
-}
 
-a{
+a {
     color: white;
 }
 
-a:hover{
+a:hover {
     color: black;
     background-color: white;
     border-radius: 25px;
-    padding-right:10px ;
+    padding-right: 10px;
+}
+
+.row-Container {
+    gap: 20px;
+    align-items: baseline;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
 }
