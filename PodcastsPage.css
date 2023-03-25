@@ -11,7 +11,6 @@ header {
     border-radius: 40px;
     flex: wrap;
     align-items: start;
-    height: 100%;
     align-self: stretch;
     flex-grow: 1;
     background:
@@ -84,7 +83,7 @@ header main {
 }
 
 .image-container {
-    border-radius: 20px;
+    border-radius: 40px;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -97,8 +96,8 @@ header main {
 
 .image-container img {
     border-radius: 20px;
-    height: 100px;
-    width: 100px;
+    height: 140px;
+    width: 140px;
 }
 
 
@@ -114,9 +113,37 @@ a:hover {
 }
 
 .row-Container {
-    gap: 20px;
+    gap: 20spx;
     align-items: baseline;
     display: flex;
     flex-direction: row;
     text-decoration: none;
+    align-items: center;
+}
+
+.bordering{
+    border:1px solid black;
+    border-radius: 40px;
+    padding: 20px;
+}
+
+.audio-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.audio-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.space {
+    padding: 10px;
+}
+
+.widening {
+    width: 100%;
+    padding-right: 60px;
 }
