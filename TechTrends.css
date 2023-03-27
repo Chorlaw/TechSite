@@ -48,7 +48,8 @@ header {
     /* Support for IE. */
     font-feature-settings: 'liga';
 }
-.row-Container{
+
+.row-Container {
     gap: 20px;
     align-items: start;
     display: flex;
@@ -56,17 +57,17 @@ header {
     text-decoration: none;
 }
 
-.chu{
+.chu {
     font-size: 40px;
     font-weight: bold;
     letter-spacing: 5px;
 }
 
-.chu2{
+.chu2 {
     font-size: 20px;
 }
 
-.round{
+.round {
     border-radius: 100px;
     background-color: white;
     display: flex;
@@ -74,18 +75,18 @@ header {
     color: black;
 }
 
-a{
+a {
     color: white;
 }
 
-a:hover{
+a:hover {
     color: black;
     background-color: white;
     border-radius: 25px;
-    padding-right:10px ;
+    padding-right: 10px;
 }
 
-.align-center{
+.align-center {
     align-items: center;
 }
 
@@ -100,7 +101,7 @@ a:hover{
 }
 
 main {
-    padding: 24px 0px ;
+    padding: 24px 0px;
     gap: 24px;
 }
 
@@ -113,35 +114,36 @@ main {
     border-radius: 300px;
 }
 
-.image-container{
+.image-container {
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     width: 50%;
-    background-color:#dde1ff ;
+    background-color: #dde1ff;
     color: rgb(20, 52, 53);
     font-size: medium;
     align-self: stretch;
 }
 
-.image-container img{
+.image-container img {
     border-radius: 20px;
     height: 400px;
     width: 100%;
 }
 
-.text-container{
+.text-container {
     padding: 20px 10px 10px;
     display: flex;
     flex-direction: column;
     gap: 0px;
 }
-.text-container span{
+
+.text-container span {
     font-weight: bold;
     max-lines: 2;
 }
 
-.text-container p{
+.text-container p {
     max-lines: 3;
     align-self: stretch;
 }

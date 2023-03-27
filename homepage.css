@@ -38,17 +38,17 @@ a {
     width: 50%;
 }
 
-.row-container{
+.row-container {
     gap: 20px;
     display: flex;
     flex-direction: row;
     width: 100%;
 }
 
-.colunm-container{
+.colunm-container {
     gap: 20px;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     width: 100%;
 }
 
@@ -63,16 +63,16 @@ a {
 }
 
 
-.link-container p{
+.link-container p {
     font-weight: bold;
 }
 
 
-.font-70{
+.font-70 {
     font-size: 70px;
 }
 
-.svg-space{
+.svg-space {
     gap: 24px;
     display: flex;
     flex-direction: column;

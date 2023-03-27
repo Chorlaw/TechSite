@@ -121,8 +121,8 @@ a:hover {
     align-items: center;
 }
 
-.bordering{
-    border:1px solid black;
+.bordering {
+    border: 1px solid black;
     border-radius: 40px;
     padding: 20px;
 }
