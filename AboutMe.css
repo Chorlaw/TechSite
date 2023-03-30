@@ -14,7 +14,7 @@ header {
     height: 100%;
     align-self: stretch;
     flex-grow: 1;
-    background:white;
+    background: white;
     background-size: cover;
     font-family: 'poppins';
     color: black;
@@ -83,4 +83,3 @@ a:hover {
 .alingment-pic {
     align-self: center;
 }
-
