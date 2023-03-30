@@ -1,0 +1,86 @@
+body {
+    margin: 30px;
+    font-family: "poppins";
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 60px;
+    gap: 40px;
+    border-radius: 20px;
+    flex: wrap;
+    align-items: start;
+    height: 100%;
+    align-self: stretch;
+    flex-grow: 1;
+    background:white;
+    background-size: cover;
+    font-family: 'poppins';
+    color: black;
+    width: 50%;
+    border: 1px solid black;
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    padding: 20px 0px;
+    /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+.row-Container {
+    gap: 20px;
+    align-items: start;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.round {
+    border-radius: 100px;
+    background-color: white;
+    display: flex;
+    padding: 6px;
+    color: black;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+    padding-right: 10px;
+}
+
+.alingment-pic {
+    align-self: center;
+}
+
