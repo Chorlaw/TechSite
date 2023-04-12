@@ -1,12 +1,15 @@
 body {
     margin: 30px;
     font-family: "poppins";
+    display:flex;
+    flex-direction: row;
+    gap: 20px;
 }
 
-header {
+.left-section{
     display: flex;
     flex-direction: column;
-    padding: 20px 60px;
+    padding: 20px 30px;
     gap: 40px;
     border-radius: 20px;
     flex: wrap;
@@ -15,7 +18,6 @@ header {
     align-self: stretch;
     flex-grow: 1;
     background: white;
-    background-size: cover;
     font-family: 'poppins';
     color: black;
     width: 50%;
@@ -49,6 +51,22 @@ header {
     font-feature-settings: 'liga';
 }
 
+
+@keyframes rotate {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+.rotate {
+    animation-name: rotate;
+    animation-timing-function:linear ;
+    transform-origin: center;
+} 
+
 .row-Container {
     gap: 20px;
     align-items: start;
@@ -63,10 +81,10 @@ header {
 
 .round {
     border-radius: 100px;
-    background-color: white;
+    background-color: black;
     display: flex;
     padding: 6px;
-    color: black;
+    color: white;
 }
 
 a {
@@ -80,6 +98,28 @@ a:hover {
     padding-right: 10px;
 }
 
-.alingment-pic {
+.row-alignment-pic {
     align-self: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.column-alignment {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.svg-container {
+    height:360px;
+    width:100%;
+    align-items:center;
+}
+
+.text-container {
+    width:100%;
+    align-self: stretch;
+    align-items:center;
+    display:flex;
+    flex-direction:column;
 }
