@@ -128,12 +128,12 @@ body {
 } 
 
 .navigation ul li:nth-child(3).active ~ .indicator{
-    transform: translateY(calc(70px * 2));
+    transform: translateX(calc(70px * 2));
 } 
 
 .navigation ul li:nth-child(4).active ~ .indicator{
-    transform: translateY(calc(70px * 3));
+    transform: translateX(calc(70px * 3));
 } 
 .navigation ul li:nth-child(5).active ~ .indicator{
-    transform: translateY(calc(70px * 4));
+    transform: translateX(calc(70px * 4));
 } 
