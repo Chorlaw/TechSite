@@ -11,13 +11,6 @@
     --clr: #222327;
 }
 
-.indicator{
-    display: flex;
-    flex-direction: row;
-    align-self:start;
-    align-content: start;
-    position: fixed;
-}
 
 body {
     display: flex;
@@ -30,10 +23,12 @@ body {
     width: 100%;
     height: 70px;
     background: #fff;
-    position: relative;
+    position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top:40px ;
+    padding-bottom: 20px;
 }
 
 .navigation ul {
